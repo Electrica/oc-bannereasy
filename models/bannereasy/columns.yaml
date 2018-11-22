@@ -1,0 +1,26 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    name:
+        label: electrica.bannereasy::lang.banner.banner_name_column
+
+    date_from:
+        label: electrica.bannereasy::lang.banner.banner_date_from_column
+
+    date_to:
+        label: electrica.bannereasy::lang.banner.banner_date_to_column
+
+    image:
+        label: electrica.bannereasy::lang.banner.banner_image_column
+        type: partial
+        path: ~/plugins/electrica/bannereasy/models/bannereasy/_image_colum.htm
+
+    active:
+        label: electrica.bannereasy::lang.banner.banner_active_column
+        type: switch

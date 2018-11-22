@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: electrica.bannereasy::lang.category.create
+
+# Model Form Field configuration
+form: $/electrica/bannereasy/models/bannereasycategory/fields.yaml
+
+# Model Class name
+modelClass: Electrica\BannerEasy\Models\BannerEasyCategory
+
+# Default redirect location
+defaultRedirect: electrica/bannereasy/bannereasycategory
+
+# Create page
+create:
+    title: electrica.bannereasy::lang.category.create
+    redirect: electrica/bannereasy/bannereasycategory/update/:id
+    redirectClose: electrica/bannereasy/bannereasycategory
+
+# Update page
+update:
+    title: electrica.bannereasy::lang.category.update
+    redirect: electrica/bannereasy/bannereasycategory
+    redirectClose: electrica/bannereasy/bannereasycategory
+
+# Preview page
+preview:
+    title: Preview Banner Easy Category

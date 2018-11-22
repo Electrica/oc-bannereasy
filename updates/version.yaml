@@ -1,0 +1,11 @@
+1.0.1: First version of BannerEasy
+1.0.2:
+  - Add table electrica_bannereasy_banner_easy_models
+  - create_banner_easies_table.php
+
+1.0.3:
+  - Add table create_banner_easy_categories_table.php
+  - create_banner_easy_categories_table.php
+
+1.0.4:
+  - Rename field image to images

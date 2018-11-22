@@ -1,0 +1,5 @@
+{% for banner in BannerEasy.banners %}
+    <img src="{{ banner.image.getPath() }}" alt="{{ banner.image.title }}">
+    <h1>{{ banner.name }}</h1>
+    <p>{{ banner.description }}</p>
+{% endfor %}

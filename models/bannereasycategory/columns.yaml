@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    name:
+      label: electrica.bannereasy::lang.category.name
+
+    description:
+      label: electrica.bannereasy::lang.category.description

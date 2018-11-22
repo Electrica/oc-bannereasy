@@ -1,0 +1,53 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    image:
+          label: electrica.bannereasy::lang.banner.banner_image_column
+          type: fileupload
+          mode: image
+          imageHeight: 260
+          #imageWidth: 260
+          size: small
+          span: right
+          mimeTypes: jpeg,jpg,png
+    name:
+          label: electrica.bannereasy::lang.banner.banner_name_column
+          required: true
+          size: small
+          span: left
+
+    description:
+          label: electrica.bannereasy::lang.banner.banner_description_column
+          type: textarea
+          size: small
+          span: left
+
+
+
+tabs:
+  fields:
+    date_from:
+        label: electrica.bannereasy::lang.banner.banner_date_from_column
+        type: datepicker
+        size: small
+        span: left
+        tab: electrica.bannereasy::lang.banner.banner_tab_time
+    date_to:
+        label: electrica.bannereasy::lang.banner.banner_date_to_column
+        type: datepicker
+        size: small
+        span: right
+        tab: electrica.bannereasy::lang.banner.banner_tab_time
+    active:
+        label: electrica.bannereasy::lang.banner.banner_active_column
+        type: switch
+        tab: electrica.bannereasy::lang.banner.banner_tab_time
+
+    category:
+        label: electrica.bannereasy::lang.banner.banner_category_column
+        type: dropdown
+        dependsOn: category
+        tab: electrica.bannereasy::lang.banner.banner_tab_category
+

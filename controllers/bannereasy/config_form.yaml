@@ -1,0 +1,33 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Banner Easy
+
+# Model Form Field configuration
+form: $/electrica/bannereasy/models/bannereasy/fields.yaml
+
+# Model Class name
+modelClass: Electrica\BannerEasy\Models\BannerEasy
+
+# Default redirect location
+defaultRedirect: electrica/bannereasy/bannereasy
+
+# Create page
+create:
+    title: electrica.bannereasy::lang.controller.create
+    redirect: electrica/bannereasy/bannereasy/update/:id
+    redirectClose: electrica/bannereasy/bannereasy
+    flashSave: electrica.bannereasy::lang.controller.create_message
+
+# Update page
+update:
+    title: electrica.bannereasy::lang.controller.update
+    redirect: electrica/bannereasy/bannereasy
+    redirectClose: electrica/bannereasy/bannereasy
+    flashSave: electrica.bannereasy::lang.controller.update_message
+
+# Preview page
+#preview:
+#    title: Preview Banner Easy
