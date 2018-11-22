@@ -22,7 +22,7 @@
                     data-hotkey="ctrl+s, cmd+s"
                     data-load-indicator="Saving BannerEasyCategory..."
                     class="btn btn-primary">
-                    <u>S</u>ave
+                    <?=Lang::get('electrica.bannereasy::lang.button.create')?>
                 </button>
                 <button
                     type="button"
@@ -31,7 +31,7 @@
                     data-hotkey="ctrl+enter, cmd+enter"
                     data-load-indicator="Saving BannerEasyCategory..."
                     class="btn btn-default">
-                    Save and Close
+                    <?=Lang::get('electrica.bannereasy::lang.button.create_close')?>
                 </button>
                 <button
                     type="button"
@@ -41,7 +41,7 @@
                     data-request-confirm="Delete this bannereasycategory?">
                 </button>
                 <span class="btn-text">
-                    or <a href="<?= Backend::url('electrica/bannereasy/bannereasycategory') ?>">Cancel</a>
+                    or <a href="<?= Backend::url('electrica/bannereasy/bannereasycategory') ?>"><?=Lang::get('electrica.bannereasy::lang.button.close')?></a>
                 </span>
             </div>
         </div>

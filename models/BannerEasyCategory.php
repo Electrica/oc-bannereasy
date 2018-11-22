@@ -7,6 +7,8 @@ use Model;
  */
 class BannerEasyCategory extends Model
 {
+
+    use \October\Rain\Database\Traits\Validation;
     /**
      * @var string The database table used by the model.
      */
@@ -34,4 +36,8 @@ class BannerEasyCategory extends Model
     public $morphMany = [];
     public $attachOne = [];
     public $attachMany = [];
+
+    public $rules = [
+        'name' => 'required'
+    ];
 }
